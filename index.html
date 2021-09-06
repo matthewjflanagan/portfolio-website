@@ -3,82 +3,94 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio Website!</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Matthew Flanagan's Portfolio</title>
+  <link rel="resetsheet" href="assets\reset.css" >
+  <link rel="stylesheet" href="assets\style.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>Matthew Flanagan's Portfolio</h1>
-    <figure><img src="https://via.placeholder.com/200" alt="placeholder image"/></figure>
-    <nav>
-        <ul>
-            <li>
-                <a>About Me</a>
-            </li>
-            <li>
-                <a>Work</a>
-            </li>
-            <li>
-                <a>Contact Me</a>
-            </li>
-            <li>
-                Link to My Resume
-                <a href="https://www.google.com">My Resume</a>
-            </li>
-        </ul>
-    </nav>
-    <div>
-        Cool Subtitle Here!
-    </div>
-  </header>
+    <header>
+        <h1>Matthew Flanagan's Portfolio</h1>
+    
+        <figure>
+            <img id="myface" src="assets\fancypic.jpg" alt="photo of Matthew FLanagan"/>
+        </figure>
+    
+        <nav class="topnav">
+            <ul>
+                <li>
+                    <a class="webpagelinks" href="#aboutme" alt="link to about me section">About Me</a>
+                </li>
+                <li>
+                    <a class="webpagelinks" href="#work" alt="link to work section">Work</a>
+                </li>
+                <li>
+                    <a class="webpagelinks" href="#contactme" alt="link to contact details">Contact Me</a>
+                </li>
+                <li>
+                    <a  class="webpagelinks" href="https://www.google.com" alt="link to resume">My Resume</a>
+                </li>
+            </ul>
+        </nav>
+  
+    </header>
 
   <main>
 
-    <section>
+    <section id="aboutme">
         <h2>About Me</h2>
         <p>
-            Paragraph 1
+            Hello my name is Matthew! I am 26 years old and currently live in Atlanta, Georgia. I have worked in the logistics industry with a focus on international shipping for 3 years. First in a Customer Service role and now in a Sales role. In my time working at my current company I had first hand experience with our operating system in Customer Service and now in my current role I have been able to see dozens of operating systems that our customers work on. In addition to the industry that I am in I have spoken to friends coming from different types of industries and one common issue I hear is the poor quality of the operating system a company has chosen to use. The need to software development is more than ever and there no signs indicating this need for talent in the software development field will subside anytime soon. 
         </p>
         <p>
-            Paragraph 2
+            While I was in college I took a begginer level coding course and even though I enjoyed the course I never considered the potential the field could offer until I experienced the need to functional websites first hand in the professional field. I started the Georgia Tech Coding Boot Camp in August 2021 with the goal of becoming a full-stack developer by the end of the course. My hope is to use the skills I have learned in this course to help in the high need to functional website & operating systems that improve the experience for users both at the company and customer level.
         </p>
     </section>
 
-    <section>
+    <section id="work">
         <h2>Work</h2>
-        <figure>
-            <h3>First Application</h3>
-            <a href="" alt=""><img src="https://via.placeholder.com/200" alt="placeholder image"/></a>
+        
+        <figure class="firstapp">
+            <h3>Horiseon Refractor Assignment</h3>
+            <h4>HTML/CSS</h4>
+            <a href="https://www.google.com" alt=""><img id="firstapp" src="assets\horiseon_refractor_project.PNG" alt="screenshot of horiseon homepage"/></a>
         </figure>
-        <figure>
-            <h3>Second Application</h3>
-            <a href="" alt=""><img src="https://via.placeholder.com/200" alt="placeholder image"/></a>
+        
+        <figure class="apps">
+            <h3>LED Wall</h3>
+            <h4>Node/IoT</h4>
+            <a href="https://www.google.com" alt=""><img src="assets\techpic1.PNG" alt="tech themed stock pic"/></a>
         </figure>
-        <figure>
-            <h3>Third Application</h3>
-            <a href="" alt=""><img src="https://via.placeholder.com/200" alt="placeholder image"/></a>
+        
+        <figure class="apps">
+            <h3>Calculator</h3>
+            <h4>React/Javascript/CSS</h4>
+            <a href="https://www.google.com" alt=""><img src="assets\techpic2.PNG" alt="tech themed stock pic"/></a>
         </figure>
-        <figure>
-            <h2>Forth Application</h2>
-            <a href="" alt=""><img src="https://via.placeholder.com/200" alt="placeholder image"/></a>
+        
+        <figure class ="apps">
+            <h3>Pastel Puzzels</h3>
+            <h4>MERN Stack</h4>
+            <a href="https://www.google.com" alt=""><img src="assets\techpic3.PNG" alt="tech themed stock pic"/></a>
         </figure>
-        <figure>
-            <h3>Fifth Application</h3>
-            <a href="" alt=""><img src="https://via.placeholder.com/200" alt="placeholder image"/></a>
+        
+        <figure class="apps">
+            <h3>Run Buddy</h3>
+            <h4>HTML/CSS</h4>
+            <a href="https://www.google.com" alt=""><img src="assets\techpic4.PNG" alt="tech themed stock pic"/></a>
         </figure>
+    
     </section>
     
   </main>
 
-  <footer>
+  <footer id="contactme">
     <h2>Contact Me</h2>
-    <nav>
+    
+    <nav class="bottomnav">
         <ul>
-
-            <li>
+            <li class="contactme">
                 Phone Number: 123-456-7890
             </li>
             <li>
@@ -92,7 +104,8 @@
             </li>
         </ul>
     </nav>
-  </footer>
+  
+</footer>
 
 </body>
 
