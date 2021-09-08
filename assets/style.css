@@ -155,6 +155,7 @@ h4 {
     object-fit: cover;
     padding: 2px;
     opacity: 100%;
+    transition: 2s;
 }
 
 footer {
