@@ -25,6 +25,7 @@ h1 {
 #myface {
     width: 150px;
     height: auto;
+    border: 3px solid whitesmoke;
 }
 
 .topnav {
