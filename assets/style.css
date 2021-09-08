@@ -21,126 +21,6 @@ header {
 	font-size: 20px;
 	color: whitesmoke;
 }
-/*
- @media screen and (max-width:1250px) {
-
-    .headerwrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    #myface {
-        display: flex;
-        flex: 0 1 auto;
-        width: 150px;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-        border: 3px solid whitesmoke;
-    }
-
-    #h1div {
-        display: flex;
-        flex: 0 1 350px;
-        order: 2;
-        font-family: Arial, Helvetica, sans-serif;
-        position: relative;  
-        font-size: 36px;
-        color: whitesmoke;
-        border:1px solid black;
-
-    } 
-    .topnav {
-        display: flex;
-        flex: 0 1 auto;
-        order: 1;
-    }
-}
-
-@media screen and (max-width:1030px) {
-
-    .headerwrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    #myface {
-        display: flex;
-        flex: 0 1 auto;
-        width: 150px;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-        border: 3px solid whitesmoke;
-    }
-
-    #h1div {
-        display: flex;
-        flex: 0 1 200px;
-        order: 2;
-        font-family: Arial, Helvetica, sans-serif;
-        position: relative;  
-        font-size: 36px;
-        color: whitesmoke;
-        border:1px solid black;
-
-    } 
-    .topnav {
-        display: flex;
-        flex: 1 1 auto;
-        order: 1;
-    }
-}
-
-@media screen and (max-width:875px) {
-
-    .headerwrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #myface {
-        display: flex;
-        flex: 0 1 auto;
-        width: 150px;
-        height: auto;
-        max-width: 100%;
-        max-height: 100%;
-        border: 3px solid whitesmoke;
-    }
-
-    #h1div {
-        display: flex;
-        flex: 0 1 200px;
-        order: 2;
-        font-family: Arial, Helvetica, sans-serif;
-        position: relative;  
-        font-size: 36px;
-        color: whitesmoke;
-        border:1px solid black;
-
-    } 
-    .topnav {
-        display: flex;
-        flex: 1 1 auto;
-        order: 1;
-    }
-} 
-
-@media screen and (max-width:350px) {
-    .webpagelinks {
-        display:flex;
-        border: 1px solid black;
-        font-size: 8px; 
-        color: whitesmoke;
-        padding: 0px 10px;
-    } 
-} 
-*/
 
 #myface {
     display: flex;
@@ -172,7 +52,6 @@ ul {
 .webpagelinks {
     display:flex;
     flex: 1 0 auto;
-    border: 1px solid black;
     color: whitesmoke;
     padding: 2px 10px;
 }
