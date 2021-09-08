@@ -1,47 +1,39 @@
 header {
     display: flex;
+    flex: 0 0 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
     border: 10px solid #5C6580;
     background-color: #364573;
 }
 
 h1 {
+    display: inline-flex;
     order: 1;
     padding: 10px;
     width:fit-content;
     height: fit-content;
-    border: 10px solid black;
+    border-bottom: 5px solid black;
 }
 
-img {
-
-    width: 200px;
+#myface {
+    width: 150px;
     height: auto;
-}
-
-figure {
-    order: 0;
-    display: flex;
-    padding: 10px;
-    border: 10px solid black;
-    width:fit-content;
 }
 
 .topnav {
     display: flex;
-    justify-content: flex-end;
     order: 2;
-    border: 2px solid white;
-    width:max-content;
-    height: fit-content;
 }
 
 body {
-    background-color: #DCDCDC;
+    background-color: #585858;
 }
 
 ul {
+    display: flex;
+    align-items: flex-end;
     list-style-type: none;
 }
 
@@ -50,10 +42,18 @@ li {
 }
 
 .webpagelinks {
+    background-color: #5C6580 ;
     color: whitesmoke;
     padding: 10px;
     border: 1px solid black;
-    width:fit-content;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    position: relative;
+    border-bottom: 5px solid black;
 }
 
 #aboutme {
@@ -69,31 +69,53 @@ li {
     border: 2px solid blue;
 }
 
+p {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .firstapp {
     display: flex;
+    flex-direction: column;
+    margin-left: 50px;
     flex: 0 0 100%;
-    border-style: solid;
-    border-width: 1px;
     float: left;
 }
 
 #firstapp {
-    width: 100%;
+    width: 90%;
     height: auto;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    border-bottom: 5px solid black;
+    width: fit-content;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    border-bottom: 5px solid black;
+    width: fit-content;
 }
 
 .apps {
     display: flex;
-    flex: 1 1 30%;
-    border-style: solid;
-    border-width: 1px;
-    float: left;
+    flex: 0 0 30%;
+    flex-direction: column;
+    border: 1px solid;
+    margin-left: 50px;
 }
 
 .contactme {
     color: whitesmoke;
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     width:fit-content;
 }
 
