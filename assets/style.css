@@ -1,35 +1,160 @@
 
 header {
-    display: flex;
-    flex: 0 0 100%;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
     border: 10px solid #364573;
     background-color: #5C6580;
 }
 
-h1 {
+.headerwrapper {
     display: flex;
-    flex-wrap: wrap;
-    order: 1;
-	font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-	position: relative;  
-	font-size: 36px;
-	line-height: 40px;
-	color: whitesmoke;
-	border-radius: 0 10px 0 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap:wrap;
 }
 
+#h1div {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    order: 1;
+    font-family: Arial, Helvetica, sans-serif;
+	position: relative;  
+	font-size: 20px;
+	color: whitesmoke;
+}
+/*
+ @media screen and (max-width:1250px) {
+
+    .headerwrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #myface {
+        display: flex;
+        flex: 0 1 auto;
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid whitesmoke;
+    }
+
+    #h1div {
+        display: flex;
+        flex: 0 1 350px;
+        order: 2;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;  
+        font-size: 36px;
+        color: whitesmoke;
+        border:1px solid black;
+
+    } 
+    .topnav {
+        display: flex;
+        flex: 0 1 auto;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:1030px) {
+
+    .headerwrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    #myface {
+        display: flex;
+        flex: 0 1 auto;
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid whitesmoke;
+    }
+
+    #h1div {
+        display: flex;
+        flex: 0 1 200px;
+        order: 2;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;  
+        font-size: 36px;
+        color: whitesmoke;
+        border:1px solid black;
+
+    } 
+    .topnav {
+        display: flex;
+        flex: 1 1 auto;
+        order: 1;
+    }
+}
+
+@media screen and (max-width:875px) {
+
+    .headerwrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #myface {
+        display: flex;
+        flex: 0 1 auto;
+        width: 150px;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid whitesmoke;
+    }
+
+    #h1div {
+        display: flex;
+        flex: 0 1 200px;
+        order: 2;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;  
+        font-size: 36px;
+        color: whitesmoke;
+        border:1px solid black;
+
+    } 
+    .topnav {
+        display: flex;
+        flex: 1 1 auto;
+        order: 1;
+    }
+} 
+
+@media screen and (max-width:350px) {
+    .webpagelinks {
+        display:flex;
+        border: 1px solid black;
+        font-size: 8px; 
+        color: whitesmoke;
+        padding: 0px 10px;
+    } 
+} 
+*/
+
 #myface {
+    display: flex;
+    flex: 0 1 auto;
     width: 150px;
     height: auto;
+    max-width: 100%;
+    max-height: 100%;
     border: 3px solid whitesmoke;
 }
 
 .topnav {
     display: flex;
+    flex: 0 1 auto;
     order: 2;
 }
 
@@ -39,18 +164,17 @@ body {
 
 ul {
     display: flex;
+    flex-wrap: nowrap;
     align-items: flex-end;
     list-style-type: none;
 }
 
-li {
-    float:left;
-}
-
 .webpagelinks {
-    background-color: #5C6580 ;
+    display:flex;
+    flex: 1 0 auto;
+    border: 1px solid black;
     color: whitesmoke;
-    padding: 10px;
+    padding: 2px 10px;
 }
 
 h2 {
@@ -110,38 +234,44 @@ h4 {
 
 .apps {
     display: flex;
-    flex: 0 0 43%;
+    flex: 1 0 400px;
     flex-direction: column;
     align-items: center;
+    max-width: 400px;
 }
 
 .applicationpics {
-    width: 400px;
-    height: 200px;
-    max-width: 100%;
-    max-height: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    width: 100%;
     padding: 2px;
-    border: 2px solid #5C6580
+    border: 2px solid #5C6580;
 }
 
 footer {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    flex-wrap: wrap;
     border: 10px solid #364573;
     background-color: #5C6580;
 }
 
 #contactmeheader {
-    padding: 5px;
+    padding: 2px 5px;
+}
+
+#contactlinks {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .contactme {
     display:flex;
-    justify-content: space-evenly;
+    flex: 1 0 auto;
+    flex-wrap: wrap;
     color: whitesmoke;
-    padding: 10px;
-    width:fit-content;
+    padding: 0px 3px;
 }
 
