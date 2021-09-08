@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 header {
     border: 10px solid #364573;
@@ -74,6 +77,15 @@ h2 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #585858;
+    padding: 5px;
+}
+
+p:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    padding: 5px;
+    transition: 2s;
 }
 
 .firstapp {
@@ -88,6 +100,15 @@ p {
     max-width: 100%;
     height: auto;
     border: 2px solid #5C6580;
+    opacity: 50%;
+}
+
+#firstappimg:hover {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #5C6580;
+    opacity: 100%;
+    transition: 2s;
 }
 
 h3 {
@@ -109,21 +130,31 @@ h4 {
 #appsdiv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
 }
 
 .apps {
     display: flex;
-    flex: 1 1 400px;
+    flex: 1 1 0;
     flex-direction: column;
     align-items: center;
-    max-width: 400px;
 }
 
 .applicationpics {
-    width: 100%;
+    flex: 1 1 0;
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
     padding: 2px;
-    border: 2px solid #5C6580;
+    opacity: 50%;
+}
+
+.applicationpics:hover {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    padding: 2px;
+    opacity: 100%;
 }
 
 footer {
