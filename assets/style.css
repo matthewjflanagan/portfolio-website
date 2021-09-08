@@ -1,20 +1,25 @@
+
 header {
     display: flex;
     flex: 0 0 100%;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 10px solid #5C6580;
-    background-color: #364573;
+    border: 10px solid #364573;
+    background-color: #5C6580;
 }
 
 h1 {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     order: 1;
-    padding: 10px;
-    width:fit-content;
-    height: fit-content;
-    border-bottom: 5px solid black;
+	font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+	position: relative;  
+	font-size: 36px;
+	line-height: 40px;
+	color: whitesmoke;
+	border-radius: 0 10px 0 10px;
 }
 
 #myface {
@@ -45,92 +50,97 @@ li {
     background-color: #5C6580 ;
     color: whitesmoke;
     padding: 10px;
-    border: 1px solid black;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
-    margin-left: 50px;
-    position: relative;
-    border-bottom: 5px solid black;
 }
 
 #aboutme {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 2px solid red;
 }
 
 #work {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid blue;
 }
 
 p {
-    margin-left: 50px;
-    margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .firstapp {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    flex: 0 0 100%;
-    float: left;
+    align-items: center;
+    flex: 0 0 90%;
+    max-width: 100%;
 }
 
-#firstapp {
-    width: 90%;
+#firstappimg {
+    max-width: 100%;
     height: auto;
+    border: 2px solid #5C6580;
 }
 
 h3 {
+    margin:1px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: relative;
-    border-bottom: 5px solid black;
     width: fit-content;
 }
 
 h4 {
+    margin: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     position: relative;
-    border-bottom: 5px solid black;
     width: fit-content;
+}
+
+#appsdiv {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .apps {
     display: flex;
-    flex: 0 0 30%;
+    flex: 0 0 43%;
     flex-direction: column;
-    border: 1px solid;
-    margin-left: 50px;
+    align-items: center;
 }
 
-.contactme {
-    color: whitesmoke;
-    padding: 10px;
-    border: 1px solid whitesmoke;
-    width:fit-content;
-}
-
-.bottomnav {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    background-color: black;
-    color: whitesmoke;
+.applicationpics {
+    width: 400px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+    border: 2px solid #5C6580
 }
 
 footer {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
     flex-wrap: wrap;
-    border: 10px solid #5C6580;
-    background-color: #364573;
+    border: 10px solid #364573;
+    background-color: #5C6580;
 }
+
+#contactmeheader {
+    padding: 5px;
+}
+
+.contactme {
+    display:flex;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    padding: 10px;
+    width:fit-content;
+}
+
