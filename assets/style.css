@@ -2,20 +2,26 @@
     box-sizing: border-box;
 }
 
+header {
+    margin-top: 10%;
+}
+
 body {
     background-color: #585858;
 }
 
 #h1div {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    flex: 1 1 auto;
     align-items: center;
-    order: 1;
     font-family: Arial, Helvetica, sans-serif;
-	position: relative;  
-	font-size: 20px;
+	font-size: 50px;
 	color: whitesmoke;
+}
+
+#h1div h1 {
+    text-align: center;
 }
 
 .mainDisplay {
@@ -24,21 +30,29 @@ body {
     align-items: center;
 }
 
+.imgDisplay {
+    margin: 5% 0;
+}
 
+.jobTitleDiv {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
 
-ul {
+#webpageLinks {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: flex-end;
+    align-items: center;
     list-style-type: none;
 }
 
 .webpagelinks {
+    font-size: 50px;
     display:flex;
     flex: 1 0 auto;
     color: whitesmoke;
-    padding: 2px 10px;
+    margin: 9% 0;
 }
 
 h2 {
@@ -48,26 +62,32 @@ h2 {
 
 #aboutme {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+#aboutme h2 {
+    color: white;
+    font-size: 30px;
+    word-break: keep-all;
+}
+
+#aboutme p {
+    background-color: #E5E5E5;
+    padding: 5%;
+    word-break: break-all;
 }
 
 #work {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #585858;
-    padding: 5px;
-}
-
-p:hover {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgrey;
-    padding: 5px;
-    transition: 2s;
+#work h2 {
+    color: white;
+    text-align: center;
 }
 
 .firstapp {
@@ -76,6 +96,16 @@ p:hover {
     align-items: center;
     flex: 0 0 90%;
     max-width: 100%;
+}
+
+.firstapp h3 {
+    color: white;
+    text-align: center;
+}
+
+.firstapp h4 {
+    color: white;
+    text-align: center;
 }
 
 #firstappimg {
@@ -122,6 +152,16 @@ h4 {
     align-items: center;
 }
 
+.apps h3 {
+    color: white;
+    text-align: center;
+}
+
+.apps h4 {
+    color: white;
+    text-align: center;
+}
+
 .applicationpics {
     flex: 1 1 0;
     width: 500px;
@@ -142,28 +182,28 @@ h4 {
 
 footer {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    border: 10px solid #364573;
-    background-color: #5C6580;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
 }
 
 #contactmeheader {
     padding: 2px 5px;
+    color: white;
+    font-size: 50px;
 }
 
 #contactlinks {
     display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
 }
 
 .contactme {
-    display:flex;
-    flex: 1 0 auto;
-    flex-wrap: wrap;
     color: whitesmoke;
-    padding: 0px 3px;
+    font-size: 30px;
+    margin: 2% 0;
 }
 
