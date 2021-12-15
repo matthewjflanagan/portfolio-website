@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -12,10 +14,9 @@ body {
 
 #h1div {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Cinzel', serif;
 	font-size: 50px;
 	color: whitesmoke;
 }
@@ -32,6 +33,15 @@ body {
 
 .imgDisplay {
     margin: 5% 0;
+}
+
+.imgDisplay img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border: 5px solid #E5E5E5;
+    border-radius: 4px;
 }
 
 .jobTitleDiv {
@@ -56,7 +66,7 @@ body {
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Cinzel', serif;
     font-size: 30px;
 }
 
@@ -71,6 +81,8 @@ h2 {
     color: white;
     font-size: 30px;
     word-break: keep-all;
+    width: 100%;
+    text-align: center;
 }
 
 #aboutme p {
@@ -125,7 +137,7 @@ h2 {
 
 h3 {
     margin:1px;
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Cinzel', serif;
     font-size: 25px;
     position: relative;
     width: fit-content;
@@ -133,7 +145,7 @@ h3 {
 
 h4 {
     margin: 1px;
-    font-family: Arial, Helvetica, sans-serif;
+font-family: 'Cinzel', serif;
     font-size: 20px;
     position: relative;
     width: fit-content;
