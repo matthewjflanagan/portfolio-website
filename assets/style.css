@@ -4,31 +4,23 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #3e412e;
+    width: 100%;
+}
+
 header {
     margin-top: 10%;
 }
 
-body {
-    background-color: #585858;
-}
-
 #h1div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Cinzel', serif;
-	font-size: 50px;
-	color: whitesmoke;
+    font-size: 50px;
 }
 
 #h1div h1 {
     text-align: center;
-}
-
-.mainDisplay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-family: 'Cinzel', serif;
+	color: #f2f4db;
 }
 
 .imgDisplay {
@@ -40,12 +32,12 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    border: 5px solid #E5E5E5;
+    border: 10px solid #f2f4db;
     border-radius: 4px;
 }
 
 .jobTitleDiv {
-    color: white;
+    color: #f2f4db;
     font-size: 30px;
     text-align: center;
 }
@@ -61,13 +53,8 @@ body {
     font-size: 50px;
     display:flex;
     flex: 1 0 auto;
-    color: whitesmoke;
+    color: #f2f4db;
     margin: 9% 0;
-}
-
-h2 {
-font-family: 'Cinzel', serif;
-    font-size: 30px;
 }
 
 #aboutme {
@@ -78,28 +65,31 @@ font-family: 'Cinzel', serif;
 }
 
 #aboutme h2 {
-    color: white;
-    font-size: 30px;
+    color: #f2f4db;
+    font-size: 40px;
     word-break: keep-all;
     width: 100%;
     text-align: center;
 }
 
 #aboutme p {
-    background-color: #E5E5E5;
+    color: #3e412e;
+    background-color: #f2f4db;
     padding: 5%;
     word-break: break-all;
 }
 
 #work {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #work h2 {
-    color: white;
+    color: #f2f4db;
     text-align: center;
+    width: 100%;
+    font-size: 40px;
 }
 
 .firstapp {
@@ -111,81 +101,70 @@ font-family: 'Cinzel', serif;
 }
 
 .firstapp h3 {
-    color: white;
+    color: #f2f4db;
     text-align: center;
+    width: 100%;
+    font-size: 35px;
 }
 
 .firstapp h4 {
-    color: white;
+    color: #f2f4db;
     text-align: center;
+    width: 100%;
+    font-size: 30px;
 }
 
 #firstappimg {
     max-width: 100%;
-    height: auto;
-    border: 2px solid #5C6580;
     opacity: 50%;
 }
 
 #firstappimg:hover {
     max-width: 100%;
-    height: auto;
-    border: 2px solid #5C6580;
     opacity: 100%;
     transition: 2s;
 }
 
-h3 {
-    margin:1px;
-font-family: 'Cinzel', serif;
-    font-size: 25px;
-    position: relative;
-    width: fit-content;
-}
-
-h4 {
-    margin: 1px;
-font-family: 'Cinzel', serif;
-    font-size: 20px;
-    position: relative;
-    width: fit-content;
-}
-
 #appsdiv {
     display: flex;
-    flex-wrap: wrap;
-
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .apps {
     display: flex;
-    flex: 1 1 0;
+    flex: 0 0 100%;
     flex-direction: column;
     align-items: center;
 }
 
 .apps h3 {
-    color: white;
+    color: #f2f4db;
     text-align: center;
+    width: 100%;
+    font-size: 35px;
 }
 
 .apps h4 {
-    color: white;
+    color: #f2f4db;
     text-align: center;
+    width: 100%;
+    font-size: 30px;
 }
 
 .applicationpics {
     flex: 1 1 0;
-    width: 500px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     object-fit: cover;
     padding: 2px;
     opacity: 50%;
 }
 
 .applicationpics:hover {
-    width: 500px;
-    height: 200px;
+    width: 800px;
+    height: 300px;
     object-fit: cover;
     padding: 2px;
     opacity: 100%;
@@ -201,7 +180,7 @@ footer {
 
 #contactmeheader {
     padding: 2px 5px;
-    color: white;
+    color: #f2f4db;
     font-size: 50px;
 }
 
@@ -214,7 +193,7 @@ footer {
 }
 
 .contactme {
-    color: whitesmoke;
+    color: #f2f4db;
     font-size: 30px;
     margin: 2% 0;
 }
