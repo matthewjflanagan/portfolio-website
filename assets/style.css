@@ -47,12 +47,11 @@ header {
     flex-direction: column;
     align-items: center;
     list-style-type: none;
+    width: 100%;
 }
 
 .webpagelinks {
     font-size: 50px;
-    display:flex;
-    flex: 1 0 auto;
     color: #f2f4db;
     margin: 9% 0;
 }
@@ -179,7 +178,6 @@ footer {
 }
 
 #contactmeheader {
-    padding: 2px 5px;
     color: #f2f4db;
     font-size: 50px;
 }
@@ -189,7 +187,6 @@ footer {
     flex-direction: column;
     align-items: center;
     list-style-type: none;
-    text-align: center;
 }
 
 .contactme {
